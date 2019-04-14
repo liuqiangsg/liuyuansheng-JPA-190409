@@ -1,0 +1,569 @@
+Apache Maven 3.5.4 (1edded0938998edf8bf061f1ceb3cfdeccf443fe; 2018-06-18T02:33:14+08:00)
+Maven home: /Users/liuqiang/tol/apache-maven-3.5.4
+Java version: 1.8.0_181, vendor: Oracle Corporation, runtime: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre
+Default locale: zh_CN, platform encoding: UTF-8
+OS name: "mac os x", version: "10.14", arch: "x86_64", family: "mac"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.annotation.* < plexus.core
+[DEBUG]   Imported: javax.annotation.security.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.inject.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.util.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.fusesource.jansi.* < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: color
+[DEBUG] Message styles: debug info warning error success failure strong mojo project
+[DEBUG] Reading global settings from /Users/liuqiang/tol/apache-maven-3.5.4/conf/settings.xml
+[DEBUG] Reading user settings from /Users/liuqiang/.m2/settings.xml
+[DEBUG] Reading global toolchains from /Users/liuqiang/tol/apache-maven-3.5.4/conf/toolchains.xml
+[DEBUG] Reading user toolchains from /Users/liuqiang/.m2/toolchains.xml
+[DEBUG] Using local repository at /Users/liuqiang/.m2/repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for /Users/liuqiang/.m2/repository
+[INFO] Scanning for projects...
+[DEBUG] Using mirror maven-public (http://nexus.mmears.com/repository/public) for central (https://repo.maven.apache.org/maven2).
+[DEBUG] Extension realms for project com.fulian:liuyuansheng:jar:0.0.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project org.springframework.boot:spring-boot-starter-parent:pom:2.1.4.RELEASE: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project org.springframework.boot:spring-boot-dependencies:pom:2.1.4.RELEASE: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: com.fulian:liuyuansheng:jar:0.0.1-SNAPSHOT
+[DEBUG] Tasks:   [clean, compile]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] ----------------------< com.fulian:liuyuansheng >-----------------------
+[INFO] Building liuyuansheng 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       com.fulian:liuyuansheng:0.0.1-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile]
+[DEBUG] Repositories (dependencies): [maven-releases (http://nexus.mmears.com/repository/releases, default, releases), maven-snapshots (http://nexus.mmears.com/repository/snapshots, default, snapshots), maven-public (http://nexus.mmears.com/repository/public, default, releases)]
+[DEBUG] Repositories (plugins)     : [maven-releases (http://nexus.mmears.com/repository/releases, default, releases+snapshots), maven-snapshots (http://nexus.mmears.com/repository/snapshots, default, releases+snapshots), maven-public (http://nexus.mmears.com/repository/public, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-clean-plugin:3.1.0:clean (default-clean)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <directory default-value="${project.build.directory}"/>
+  <excludeDefaultDirectories default-value="false">${maven.clean.excludeDefaultDirectories}</excludeDefaultDirectories>
+  <failOnError default-value="true">${maven.clean.failOnError}</failOnError>
+  <followSymLinks default-value="false">${maven.clean.followSymLinks}</followSymLinks>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <reportDirectory default-value="${project.build.outputDirectory}"/>
+  <retryOnError default-value="true">${maven.clean.retryOnError}</retryOnError>
+  <skip default-value="false">${maven.clean.skip}</skip>
+  <testOutputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <verbose>${maven.clean.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:3.1.0:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <addDefaultExcludes default-value="true"/>
+  <buildFilters default-value="${project.build.filters}"/>
+  <delimiters>
+    <delimiter>@</delimiter>
+  </delimiters>
+  <encoding default-value="${project.build.sourceEncoding}"/>
+  <escapeWindowsPaths default-value="true"/>
+  <fileNameFiltering default-value="false"/>
+  <includeEmptyDirs default-value="false"/>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false"/>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <skip default-value="false">${maven.resources.skip}</skip>
+  <supportMultiLineFiltering default-value="false"/>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true">false</useDefaultDelimiters>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.8.0:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <compilePath default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <failOnWarning default-value="false">${maven.compiler.failOnWarning}</failOnWarning>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution default-value="${mojoExecution}"/>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <parameters default-value="false">true</parameters>
+  <project default-value="${project}"/>
+  <projectArtifact default-value="${project.artifact}"/>
+  <release>${maven.compiler.release}</release>
+  <session default-value="${session}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skipMain>${maven.main.skip}</skipMain>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.6">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.6">${maven.compiler.target}</target>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=588662, ConflictMarker.markTime=369406, ConflictMarker.nodeCount=119, ConflictIdSorter.graphTime=360336, ConflictIdSorter.topsortTime=231342, ConflictIdSorter.conflictIdCount=61, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=4822066, ConflictResolver.conflictItemCount=103, DefaultDependencyCollector.collectTime=148970764, DefaultDependencyCollector.transformTime=7599761}
+[DEBUG] com.fulian:liuyuansheng:jar:0.0.1-SNAPSHOT
+[DEBUG]    org.springframework.boot:spring-boot-starter-data-jpa:jar:2.1.4.RELEASE:compile
+[DEBUG]       org.springframework.boot:spring-boot-starter-aop:jar:2.1.4.RELEASE:compile (version managed from 2.1.4.RELEASE)
+[DEBUG]          org.springframework:spring-aop:jar:5.1.6.RELEASE:compile (version managed from 5.1.6.RELEASE)
+[DEBUG]          org.aspectj:aspectjweaver:jar:1.9.2:compile (version managed from 1.9.2)
+[DEBUG]       org.springframework.boot:spring-boot-starter-jdbc:jar:2.1.4.RELEASE:compile (version managed from 2.1.4.RELEASE)
+[DEBUG]          com.zaxxer:HikariCP:jar:3.2.0:compile (version managed from 3.2.0)
+[DEBUG]          org.springframework:spring-jdbc:jar:5.1.6.RELEASE:compile (version managed from 5.1.6.RELEASE)
+[DEBUG]       javax.transaction:javax.transaction-api:jar:1.3:compile (version managed from 1.3)
+[DEBUG]       javax.xml.bind:jaxb-api:jar:2.3.1:compile (version managed from 2.3.1)
+[DEBUG]          javax.activation:javax.activation-api:jar:1.2.0:compile (version managed from 1.2.0)
+[DEBUG]       org.hibernate:hibernate-core:jar:5.3.9.Final:compile (version managed from 5.3.9.Final) (exclusions managed)
+[DEBUG]          org.jboss.logging:jboss-logging:jar:3.3.2.Final:compile (version managed from 3.3.2.Final)
+[DEBUG]          javax.persistence:javax.persistence-api:jar:2.2:compile (version managed from 2.2)
+[DEBUG]          org.javassist:javassist:jar:3.23.1-GA:compile
+[DEBUG]          net.bytebuddy:byte-buddy:jar:1.9.12:compile (version managed from 1.9.5)
+[DEBUG]          antlr:antlr:jar:2.7.7:compile (version managed from 2.7.7)
+[DEBUG]          org.jboss:jandex:jar:2.0.5.Final:compile
+[DEBUG]          com.fasterxml:classmate:jar:1.4.0:compile (version managed from 1.3.4)
+[DEBUG]          org.dom4j:dom4j:jar:2.1.1:compile
+[DEBUG]          org.hibernate.common:hibernate-commons-annotations:jar:5.0.4.Final:compile
+[DEBUG]       org.springframework.data:spring-data-jpa:jar:2.1.6.RELEASE:compile (version managed from 2.1.6.RELEASE)
+[DEBUG]          org.springframework.data:spring-data-commons:jar:2.1.6.RELEASE:compile (version managed from 2.1.6.RELEASE)
+[DEBUG]          org.springframework:spring-orm:jar:5.1.6.RELEASE:compile (version managed from 5.1.6.RELEASE)
+[DEBUG]          org.springframework:spring-context:jar:5.1.6.RELEASE:compile (version managed from 5.1.6.RELEASE)
+[DEBUG]             org.springframework:spring-expression:jar:5.1.6.RELEASE:compile (version managed from 5.1.6.RELEASE)
+[DEBUG]          org.springframework:spring-tx:jar:5.1.6.RELEASE:compile (version managed from 5.1.6.RELEASE)
+[DEBUG]          org.springframework:spring-beans:jar:5.1.6.RELEASE:compile (version managed from 5.1.6.RELEASE)
+[DEBUG]          org.slf4j:slf4j-api:jar:1.7.26:compile (version managed from 1.7.25)
+[DEBUG]       org.springframework:spring-aspects:jar:5.1.6.RELEASE:compile (version managed from 5.1.6.RELEASE)
+[DEBUG]    com.h2database:h2:jar:1.4.199:compile
+[DEBUG]    org.springframework.boot:spring-boot-starter-test:jar:2.1.4.RELEASE:test
+[DEBUG]       org.springframework.boot:spring-boot-starter:jar:2.1.4.RELEASE:compile (version managed from 2.1.4.RELEASE)
+[DEBUG]          org.springframework.boot:spring-boot:jar:2.1.4.RELEASE:compile (version managed from 2.1.4.RELEASE)
+[DEBUG]          org.springframework.boot:spring-boot-autoconfigure:jar:2.1.4.RELEASE:compile (version managed from 2.1.4.RELEASE)
+[DEBUG]          org.springframework.boot:spring-boot-starter-logging:jar:2.1.4.RELEASE:compile (version managed from 2.1.4.RELEASE)
+[DEBUG]             ch.qos.logback:logback-classic:jar:1.2.3:compile (version managed from 1.2.3)
+[DEBUG]                ch.qos.logback:logback-core:jar:1.2.3:compile (version managed from 1.2.3)
+[DEBUG]             org.apache.logging.log4j:log4j-to-slf4j:jar:2.11.2:compile (version managed from 2.11.2)
+[DEBUG]                org.apache.logging.log4j:log4j-api:jar:2.11.2:compile (version managed from 2.11.2)
+[DEBUG]             org.slf4j:jul-to-slf4j:jar:1.7.26:compile (version managed from 1.7.26)
+[DEBUG]          javax.annotation:javax.annotation-api:jar:1.3.2:compile (version managed from 1.3.2)
+[DEBUG]          org.yaml:snakeyaml:jar:1.23:runtime (version managed from 1.23)
+[DEBUG]       org.springframework.boot:spring-boot-test:jar:2.1.4.RELEASE:test (version managed from 2.1.4.RELEASE)
+[DEBUG]       org.springframework.boot:spring-boot-test-autoconfigure:jar:2.1.4.RELEASE:test (version managed from 2.1.4.RELEASE)
+[DEBUG]       com.jayway.jsonpath:json-path:jar:2.4.0:test (version managed from 2.4.0)
+[DEBUG]          net.minidev:json-smart:jar:2.3:test
+[DEBUG]             net.minidev:accessors-smart:jar:1.2:test
+[DEBUG]                org.ow2.asm:asm:jar:5.0.4:test
+[DEBUG]       junit:junit:jar:4.12:test (version managed from 4.12)
+[DEBUG]       org.assertj:assertj-core:jar:3.11.1:test (version managed from 3.11.1)
+[DEBUG]       org.mockito:mockito-core:jar:2.23.4:test (version managed from 2.23.4)
+[DEBUG]          net.bytebuddy:byte-buddy-agent:jar:1.9.12:test (version managed from 1.9.3)
+[DEBUG]          org.objenesis:objenesis:jar:2.6:test
+[DEBUG]       org.hamcrest:hamcrest-core:jar:1.3:test (version managed from 1.3)
+[DEBUG]       org.hamcrest:hamcrest-library:jar:1.3:test (version managed from 1.3)
+[DEBUG]       org.skyscreamer:jsonassert:jar:1.5.0:test (version managed from 1.5.0)
+[DEBUG]          com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test
+[DEBUG]       org.springframework:spring-core:jar:5.1.6.RELEASE:compile (version managed from 5.1.6.RELEASE)
+[DEBUG]          org.springframework:spring-jcl:jar:5.1.6.RELEASE:compile (version managed from 5.1.6.RELEASE)
+[DEBUG]       org.springframework:spring-test:jar:5.1.6.RELEASE:test (version managed from 5.1.6.RELEASE)
+[DEBUG]       org.xmlunit:xmlunit-core:jar:2.6.2:test (version managed from 2.6.2)
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ liuyuansheng ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=182150, ConflictMarker.markTime=81246, ConflictMarker.nodeCount=14, ConflictIdSorter.graphTime=42951, ConflictIdSorter.topsortTime=43028, ConflictIdSorter.conflictIdCount=12, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=340262, ConflictResolver.conflictItemCount=14, DefaultDependencyCollector.collectTime=29476392, DefaultDependencyCollector.transformTime=826075}
+[DEBUG] org.apache.maven.plugins:maven-clean-plugin:jar:3.1.0:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model:jar:3.0:compile
+[DEBUG]          org.codehaus.plexus:plexus-utils:jar:2.0.4:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:3.0:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[DEBUG]          org.codehaus.plexus:plexus-component-annotations:jar:1.7.1:compile
+[DEBUG]          org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:3.2.1:compile
+[DEBUG]       commons-io:commons-io:jar:2.5:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-clean-plugin:3.1.0
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-clean-plugin:3.1.0
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-clean-plugin:3.1.0
+[DEBUG]   Included: org.apache.maven.plugins:maven-clean-plugin:jar:3.1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.7.1
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:1.4.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.2.1
+[DEBUG]   Included: commons-io:commons-io:jar:2.5
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-clean-plugin:3.1.0:clean from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-clean-plugin:3.1.0, parent: sun.misc.Launcher$AppClassLoader@55f96302]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-clean-plugin:3.1.0:clean' with basic configurator -->
+[DEBUG]   (f) directory = /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/target
+[DEBUG]   (f) excludeDefaultDirectories = false
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) followSymLinks = false
+[DEBUG]   (f) outputDirectory = /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/target/classes
+[DEBUG]   (f) reportDirectory = /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/target/classes
+[DEBUG]   (f) retryOnError = true
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) testOutputDirectory = /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/target/test-classes
+[DEBUG] -- end configuration --
+[INFO] Deleting /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/target
+[INFO] Deleting file /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+[INFO] Deleting file /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+[INFO] Deleting directory /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/target/maven-status/maven-compiler-plugin/compile/default-compile
+[INFO] Deleting directory /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/target/maven-status/maven-compiler-plugin/compile
+[INFO] Deleting directory /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/target/maven-status/maven-compiler-plugin
+[INFO] Deleting directory /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/target/maven-status
+[INFO] Deleting file /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/target/classes/application.properties
+[INFO] Deleting file /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/target/classes/com/fulian/liuyuansheng/LiuyuanshengApplication.class
+[INFO] Deleting file /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/target/classes/com/fulian/liuyuansheng/hello/CustomerRepository.class
+[INFO] Deleting file /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/target/classes/com/fulian/liuyuansheng/hello/Customer.class
+[INFO] Deleting directory /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/target/classes/com/fulian/liuyuansheng/hello
+[INFO] Deleting directory /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/target/classes/com/fulian/liuyuansheng
+[INFO] Deleting directory /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/target/classes/com/fulian
+[INFO] Deleting directory /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/target/classes/com
+[INFO] Deleting directory /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/target/classes
+[INFO] Deleting directory /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/target/generated-sources/annotations
+[INFO] Deleting directory /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/target/generated-sources
+[INFO] Deleting directory /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/target
+[DEBUG] Skipping non-existing directory /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/target/classes
+[DEBUG] Skipping non-existing directory /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/target/test-classes
+[DEBUG] Skipping non-existing directory /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ liuyuansheng ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=97900, ConflictMarker.markTime=67332, ConflictMarker.nodeCount=68, ConflictIdSorter.graphTime=60443, ConflictIdSorter.topsortTime=15272, ConflictIdSorter.conflictIdCount=28, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=538042, ConflictResolver.conflictItemCount=67, DefaultDependencyCollector.collectTime=37196543, DefaultDependencyCollector.transformTime=792586}
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:3.1.0:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:3.0:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[DEBUG]    org.apache.maven:maven-core:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-aether-provider:jar:3.0:runtime
+[DEBUG]       org.sonatype.aether:aether-impl:jar:1.7:compile
+[DEBUG]          org.sonatype.aether:aether-spi:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-api:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-util:jar:1.7:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.7.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven:maven-model:jar:3.0:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.1.0:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:3.1.1:compile
+[DEBUG]       org.apache.maven.shared:maven-shared-utils:jar:3.0.0:compile
+[DEBUG]          com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.7:compile
+[DEBUG]    commons-io:commons-io:jar:2.5:compile
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.24:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.1.0
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.1.0
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.1.0
+[DEBUG]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:3.1.0
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:1.4.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7
+[DEBUG]   Included: org.sonatype.aether:aether-util:jar:1.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.7.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.1.0
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:3.1.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.0.0
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.7
+[DEBUG]   Included: commons-io:commons-io:jar:2.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.24
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:3.1.0:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:3.1.0, parent: sun.misc.Launcher$AppClassLoader@55f96302]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:3.1.0:resources' with basic configurator -->
+[DEBUG]   (f) addDefaultExcludes = true
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (s) delimiters = [@]
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (f) fileNameFiltering = false
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/target/classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: com.fulian:liuyuansheng:0.0.1-SNAPSHOT @ /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: true, FileSet {directory: /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/src/main/resources, PatternSet [includes: {**/application*.yml, **/application*.yaml, **/application*.properties}, excludes: {}]}}, Resource {targetPath: null, filtering: false, FileSet {directory: /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/src/main/resources, PatternSet [includes: {}, excludes: {**/application*.yml, **/application*.yaml, **/application*.properties}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@3f3ddbd9
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = false
+[DEBUG] -- end configuration --
+[DEBUG] properties used {spring-batch.version=4.1.2.RELEASE, env.OLDPWD=/Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409, file.encoding.pkg=sun.io, undertow.version=2.0.19.Final, httpclient.version=4.5.8, maven-surefire-plugin.version=2.22.1, nio-multipart-parser.version=1.1.0, java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre, spring-ldap.version=2.3.2.RELEASE, hibernate.version=5.3.9.Final, groovy.version=2.5.6, rxjava2.version=2.2.8, byte-buddy.version=1.9.12, classworlds.conf=/Users/liuqiang/tol/apache-maven-3.5.4/bin/m2.conf, java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/endorsed, jmustache.version=1.14, env.LOGNAME=liuqiang, spring-cloud-connectors.version=2.0.5.RELEASE, mockito.version=2.23.4, sun.os.patch.level=unknown, reactor-bom.version=Californium-SR6, java.vendor.url=http://java.oracle.com/, maven-antrun-plugin.version=1.8, bitronix.version=2.1.4, java.version=1.8.0_181, atomikos.version=4.0.6, exec-maven-plugin.version=1.6.0, webjars-locator-core.version=0.35, jersey.version=2.27, maven-javadoc-plugin.version=3.0.1, jaxen.version=1.1.6, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, caffeine.version=2.6.2, couchbase-cache-client.version=2.1.0, lettuce.version=5.1.6.RELEASE, sun-mail.version=1.6.2, wsdl4j.version=1.6.3, jedis.version=2.9.3, prometheus-pushgateway.version=0.5.0, javax-annotation.version=1.3.2, javax-mail.version=1.6.2, maven-failsafe-plugin.version=2.22.1, lombok.version=1.18.6, user.name=liuqiang, sun.io.unicode.encoding=UnicodeBig, sun.jnu.encoding=UTF-8, java.runtime.name=Java(TM) SE Runtime Environment, saaj-impl.version=1.5.0, activemq.version=5.15.9, javax-jaxb.version=2.3.1, java.specification.name=Java Platform API Specification, log4j2.version=2.11.2, aspectj.version=1.9.2, ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, user.timezone=, janino.version=3.0.12, hazelcast-hibernate5.version=1.2.3, versions-maven-plugin.version=2.7, spring-kafka.version=2.2.5.RELEASE, path.separator=:, johnzon.version=1.1.11, tomcat.version=9.0.17, env.MAVEN_CMD_LINE_ARGS= clean compile -X, postgresql.version=42.2.5, env.com.apple.java.jvmTask=CommandLine, file.encoding=UTF-8, flatten-maven-plugin.version=1.0.1, mimepull.version=1.9.11, statsd-client.version=3.1.0, env.HOME=/Users/liuqiang, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher clean compile -X, junit-jupiter.version=5.3.2, socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16, flyway.version=5.2.4, snakeyaml.version=1.23, maven-enforcer-plugin.version=3.0.0-M2, maven-dependency-plugin.version=3.1.1, resource.delimiter=@, hikaricp.version=3.2.0, assertj.version=3.11.1, rest-assured.version=3.1.1, nekohtml.version=1.9.22, jest.version=6.3.1, java.io.tmpdir=/var/folders/z1/hvd4g1w16fx14xc3jbztsllr0000gn/T/, javax-transaction.version=1.3, hazelcast.version=3.11.2, mariadb.version=2.3.0, glassfish-el.version=3.0.0, user.language=zh, javax-money.version=1.0.3, line.separator=
+, project.baseUri=file:/Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/, thymeleaf-extras-java8time.version=3.0.4.RELEASE, javax-validation.version=2.0.1.Final, spring-security.version=5.1.5.RELEASE, solr.version=7.7.1, glassfish-jaxb.version=2.3.1, thymeleaf-extras-springsecurity.version=3.0.4.RELEASE, java.vm.info=mixed mode, java.vm.specification.name=Java Virtual Machine Specification, neo4j-ogm.version=3.1.8, servlet-api.version=4.0.1, project.reporting.outputEncoding=UTF-8, joda-time.version=2.10.1, hibernate-validator.version=6.0.16.Final, env.__CF_USER_TEXT_ENCODING=0x1F5:0x19:0x34, jaybird.version=3.0.5, liquibase.version=3.6.3, maven-resources-plugin.version=3.1.0, embedded-mongo.version=2.1.2, http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, querydsl.version=4.2.1, spring-integration.version=5.1.4.RELEASE, kafka.version=2.0.1, env.LC_CTYPE=zh_CN.UTF-8, reactive-streams.version=1.0.2, java.awt.printerjob=sun.lwawt.macosx.CPrinterJob, mongodb.version=3.8.2, commons-codec.version=1.11, antlr2.version=2.7.7, xml-apis.version=1.4.01, maven-jar-plugin.version=3.1.1, env.XPC_FLAGS=0x0, jetty-el.version=8.5.35.1, selenium.version=3.14.0, javax-websocket.version=1.1, rabbit-amqp-client.version=5.4.3, jetty.version=9.4.15.v20190215, maven-help-plugin.version=3.1.1, ehcache.version=2.10.6, gopherProxySet=false, mssql-jdbc.version=6.4.0.jre8, javax-jsonb.version=1.0, javax-jaxws.version=2.3.1, maven.build.timestamp=2019-04-10T06:12:21Z, spring-retry.version=1.2.4.RELEASE, os.name=Mac OS X, java.specification.vendor=Oracle Corporation, mongo-driver-reactivestreams.version=1.9.2, env.JAVA_ARCH=x86_64, ehcache3.version=3.6.3, env.TERM=xterm-256color, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, java.library.path=/Users/liuqiang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., couchbase-client.version=2.7.4, env.PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/liuqiang/tol/apache-maven-3.5.4/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/bin:/usr/local/mysql/bin, library.jansi.path=/Users/liuqiang/tol/apache-maven-3.5.4/lib/jansi-native, java.class.version=52.0, env.SHLVL=1, maven.multiModuleProjectDirectory=/Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409, spring-framework.version=5.1.6.RELEASE, javax-json.version=1.1.4, freemarker.version=2.3.28, infinispan.version=9.4.11.Final, unboundid-ldapsdk.version=4.0.10, micrometer.version=1.1.4, httpasyncclient.version=4.1.4, classmate.version=1.4.0, artemis.version=2.6.4, spring-plugin.version=1.2.0.RELEASE, spring.version=5.1.6.RELEASE, selenium-htmlunit.version=2.33.0, project.build.sourceEncoding=UTF-8, appengine-sdk.version=1.9.73, sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib, javax-persistence.version=2.2, rxjava.version=1.3.8, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.awt.graphicsenv=sun.awt.CGraphicsEnvironment, maven-shade-plugin.version=3.2.1, env.USER=liuqiang, netty.version=4.1.34.Final, commons-dbcp2.version=2.5.0, htmlunit.version=2.33, jboss-transaction-spi.version=7.6.0.Final, hamcrest.version=1.3, junit.version=4.12, maven-install-plugin.version=2.5.2, javax-cache.version=1.1.0, javax-activation.version=1.2.0, kotlin.version=1.2.71, java.vm.specification.version=1.8, build-helper-maven-plugin.version=3.0.0, pooled-jms.version=1.0.4, javax-jms.version=2.0.1, jtds.version=1.3.1, mysql.version=8.0.15, slf4j.version=1.7.26, awt.toolkit=sun.lwawt.macosx.LWCToolkit, spring-session-bom.version=Bean-SR4, sun.cpu.isalist=, env.MAVEN_PROJECTBASEDIR=/Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409, git-commit-id-plugin.version=2.2.6, maven-compiler-plugin.version=3.8.0, java.ext.dirs=/Users/liuqiang/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java, jetty-reactive-httpclient.version=1.0.3, derby.version=10.14.2.0, os.version=10.14, thymeleaf-layout-dialect.version=2.3.0, user.home=/Users/liuqiang, java.vm.vendor=Oracle Corporation, johnzon-jsonb.version=1.1.11, jooq.version=3.11.10, logback.version=1.2.3, influxdb-java.version=2.14, maven-clean-plugin.version=3.1.0, env.XPC_SERVICE_NAME=0, maven.conf=/Users/liuqiang/tol/apache-maven-3.5.4/conf, user.dir=/Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409, rxjava-adapter.version=1.2.1, env.PWD=/Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409, spring-restdocs.version=2.0.3.RELEASE, jsonassert.version=1.5.0, elasticsearch.version=6.4.3, sun.cpu.endian=little, httpcore.version=4.4.11, xml-maven-plugin.version=1.0.2, sqlite-jdbc.version=3.25.2, env.TMPDIR=/var/folders/z1/hvd4g1w16fx14xc3jbztsllr0000gn/T/, dom4j.version=1.6.1, java.vm.version=25.181-b13, java.class.path=/Users/liuqiang/tol/apache-maven-3.5.4/boot/plexus-classworlds-2.5.2.jar, thymeleaf-extras-data-attribute.version=2.0.1, jdom2.version=2.0.6, jetty-jsp.version=2.2.0.v201112011158, os.arch=x86_64, maven.build.version=Apache Maven 3.5.4 (1edded0938998edf8bf061f1ceb3cfdeccf443fe; 2018-06-18T02:33:14+08:00), xmlunit2.version=2.6.2, env.Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.qSf7u9PnnX/Render, json-path.version=2.4.0, spring-hateoas.version=0.25.1.RELEASE, sendgrid.version=4.3.0, spring-data-releasetrain.version=Lovelace-SR6, spring-ws.version=3.0.7.RELEASE, sun.java.launcher=SUN_STANDARD, dropwizard-metrics.version=4.0.5, netty-tcnative.version=2.0.24.Final, commons-pool.version=1.6, jboss-logging.version=3.3.2.Final, jstl.version=1.2, webjars-hal-browser.version=3325375, java.vm.specification.vendor=Oracle Corporation, maven-war-plugin.version=3.2.2, file.separator=/, gson.version=2.8.5, h2.version=1.4.199, cassandra-driver.version=3.6.0, jolokia.version=1.6.0, java.runtime.version=1.8.0_181-b13, sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/classes, env.SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.7lGtLYyZdi/Listeners, maven-assembly-plugin.version=3.1.1, jackson.version=2.9.8, maven.version=3.5.4, jna.version=4.5.2, maven-source-plugin.version=3.0.1, user.country=CN, env.SHELL=/bin/bash, maven.home=/Users/liuqiang/tol/apache-maven-3.5.4, maven.compiler.target=1.8, maven-deploy-plugin.version=2.8.2, commons-lang3.version=3.8.1, thymeleaf.version=3.0.11.RELEASE, commons-pool2.version=2.6.1, maven-site-plugin.version=3.7.1, maven-invoker-plugin.version=3.1.0, java.vendor=Oracle Corporation, spring-amqp.version=2.1.5.RELEASE, env.JAVA_MAIN_CLASS_2255=org.codehaus.plexus.classworlds.launcher.Launcher, quartz.version=2.3.1, maven.compiler.source=1.8, hsqldb.version=2.4.1, java.specification.version=1.8, sun.arch.data.model=64}
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[DEBUG] resource with targetPath null
+directory /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/src/main/resources
+excludes []
+includes [**/application*.yml, **/application*.yaml, **/application*.properties]
+[DEBUG] ignoreDelta true
+[INFO] Copying 1 resource
+[DEBUG] Copying file application.properties
+[DEBUG] file application.properties has a filtered file extension
+[DEBUG] filtering /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/src/main/resources/application.properties to /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/target/classes/application.properties
+[DEBUG] resource with targetPath null
+directory /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/src/main/resources
+excludes [**/application*.yml, **/application*.yaml, **/application*.properties]
+includes []
+[DEBUG] ignoreDelta true
+[INFO] Copying 0 resource
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ liuyuansheng ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=179247, ConflictMarker.markTime=57546, ConflictMarker.nodeCount=118, ConflictIdSorter.graphTime=86332, ConflictIdSorter.topsortTime=29256, ConflictIdSorter.conflictIdCount=45, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=728507, ConflictResolver.conflictItemCount=72, DefaultDependencyCollector.collectTime=44440593, DefaultDependencyCollector.transformTime=1094224}
+[DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:3.8.0:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model:jar:3.0:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:3.0:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:2.0.4:compile
+[DEBUG]    org.apache.maven:maven-core:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-aether-provider:jar:3.0:runtime
+[DEBUG]       org.sonatype.aether:aether-impl:jar:1.7:compile
+[DEBUG]          org.sonatype.aether:aether-spi:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-api:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-util:jar:1.7:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.14:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.7.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:3.2.1:compile
+[DEBUG]       commons-io:commons-io:jar:2.5:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-incremental:jar:1.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-java:jar:0.9.10:compile
+[DEBUG]       org.ow2.asm:asm:jar:6.2:compile
+[DEBUG]       com.thoughtworks.qdox:qdox:jar:2.0-M9:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:2.8.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-manager:jar:2.8.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-javac:jar:2.8.4:runtime
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.8.0
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.8.0
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.8.0
+[DEBUG]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:3.8.0
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:1.4.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.4
+[DEBUG]   Included: org.sonatype.aether:aether-util:jar:1.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.14
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.7.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.2.1
+[DEBUG]   Included: commons-io:commons-io:jar:2.5
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-incremental:jar:1.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-java:jar:0.9.10
+[DEBUG]   Included: org.ow2.asm:asm:jar:6.2
+[DEBUG]   Included: com.thoughtworks.qdox:qdox:jar:2.0-M9
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:2.8.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:2.8.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:2.8.4
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.8.0:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.8.0, parent: sun.misc.Launcher$AppClassLoader@55f96302]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.8.0:compile' with basic configurator -->
+[DEBUG]   (f) basedir = /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409
+[DEBUG]   (f) buildDirectory = /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/target
+[DEBUG]   (f) compilePath = [/Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/target/classes, /Users/liuqiang/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/2.1.4.RELEASE/spring-boot-starter-data-jpa-2.1.4.RELEASE.jar, /Users/liuqiang/.m2/repository/org/springframework/boot/spring-boot-starter-aop/2.1.4.RELEASE/spring-boot-starter-aop-2.1.4.RELEASE.jar, /Users/liuqiang/.m2/repository/org/springframework/spring-aop/5.1.6.RELEASE/spring-aop-5.1.6.RELEASE.jar, /Users/liuqiang/.m2/repository/org/aspectj/aspectjweaver/1.9.2/aspectjweaver-1.9.2.jar, /Users/liuqiang/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/2.1.4.RELEASE/spring-boot-starter-jdbc-2.1.4.RELEASE.jar, /Users/liuqiang/.m2/repository/com/zaxxer/HikariCP/3.2.0/HikariCP-3.2.0.jar, /Users/liuqiang/.m2/repository/org/springframework/spring-jdbc/5.1.6.RELEASE/spring-jdbc-5.1.6.RELEASE.jar, /Users/liuqiang/.m2/repository/javax/transaction/javax.transaction-api/1.3/javax.transaction-api-1.3.jar, /Users/liuqiang/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar, /Users/liuqiang/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar, /Users/liuqiang/.m2/repository/org/hibernate/hibernate-core/5.3.9.Final/hibernate-core-5.3.9.Final.jar, /Users/liuqiang/.m2/repository/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.jar, /Users/liuqiang/.m2/repository/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar, /Users/liuqiang/.m2/repository/org/javassist/javassist/3.23.1-GA/javassist-3.23.1-GA.jar, /Users/liuqiang/.m2/repository/net/bytebuddy/byte-buddy/1.9.12/byte-buddy-1.9.12.jar, /Users/liuqiang/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar, /Users/liuqiang/.m2/repository/org/jboss/jandex/2.0.5.Final/jandex-2.0.5.Final.jar, /Users/liuqiang/.m2/repository/com/fasterxml/classmate/1.4.0/classmate-1.4.0.jar, /Users/liuqiang/.m2/repository/org/dom4j/dom4j/2.1.1/dom4j-2.1.1.jar, /Users/liuqiang/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.0.4.Final/hibernate-commons-annotations-5.0.4.Final.jar, /Users/liuqiang/.m2/repository/org/springframework/data/spring-data-jpa/2.1.6.RELEASE/spring-data-jpa-2.1.6.RELEASE.jar, /Users/liuqiang/.m2/repository/org/springframework/data/spring-data-commons/2.1.6.RELEASE/spring-data-commons-2.1.6.RELEASE.jar, /Users/liuqiang/.m2/repository/org/springframework/spring-orm/5.1.6.RELEASE/spring-orm-5.1.6.RELEASE.jar, /Users/liuqiang/.m2/repository/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE.jar, /Users/liuqiang/.m2/repository/org/springframework/spring-expression/5.1.6.RELEASE/spring-expression-5.1.6.RELEASE.jar, /Users/liuqiang/.m2/repository/org/springframework/spring-tx/5.1.6.RELEASE/spring-tx-5.1.6.RELEASE.jar, /Users/liuqiang/.m2/repository/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE.jar, /Users/liuqiang/.m2/repository/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar, /Users/liuqiang/.m2/repository/org/springframework/spring-aspects/5.1.6.RELEASE/spring-aspects-5.1.6.RELEASE.jar, /Users/liuqiang/.m2/repository/com/h2database/h2/1.4.199/h2-1.4.199.jar, /Users/liuqiang/.m2/repository/org/springframework/boot/spring-boot-starter/2.1.4.RELEASE/spring-boot-starter-2.1.4.RELEASE.jar, /Users/liuqiang/.m2/repository/org/springframework/boot/spring-boot/2.1.4.RELEASE/spring-boot-2.1.4.RELEASE.jar, /Users/liuqiang/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.4.RELEASE/spring-boot-autoconfigure-2.1.4.RELEASE.jar, /Users/liuqiang/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.1.4.RELEASE/spring-boot-starter-logging-2.1.4.RELEASE.jar, /Users/liuqiang/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar, /Users/liuqiang/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar, /Users/liuqiang/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.11.2/log4j-to-slf4j-2.11.2.jar, /Users/liuqiang/.m2/repository/org/apache/logging/log4j/log4j-api/2.11.2/log4j-api-2.11.2.jar, /Users/liuqiang/.m2/repository/org/slf4j/jul-to-slf4j/1.7.26/jul-to-slf4j-1.7.26.jar, /Users/liuqiang/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar, /Users/liuqiang/.m2/repository/org/springframework/spring-core/5.1.6.RELEASE/spring-core-5.1.6.RELEASE.jar, /Users/liuqiang/.m2/repository/org/springframework/spring-jcl/5.1.6.RELEASE/spring-jcl-5.1.6.RELEASE.jar]
+[DEBUG]   (f) compileSourceRoots = [/Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/src/main/java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) failOnWarning = false
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedSourcesDirectory = /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/target/generated-sources/annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.8.0:compile {execution: default-compile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/target/classes
+[DEBUG]   (f) parameters = true
+[DEBUG]   (f) project = MavenProject: com.fulian:liuyuansheng:0.0.1-SNAPSHOT @ /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/pom.xml
+[DEBUG]   (f) projectArtifact = com.fulian:liuyuansheng:jar:0.0.1-SNAPSHOT
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@3f3ddbd9
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 1.8
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (s) target = 1.8
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Adding /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/target/generated-sources/annotations to compile source roots:
+  /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/src/main/java
+[DEBUG] New compile source roots:
+  /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/src/main/java
+  /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/target/generated-sources/annotations
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[DEBUG] Stale source detected: /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/src/main/java/com/fulian/liuyuansheng/hello/CustomerRepository.java
+[DEBUG] Stale source detected: /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/src/main/java/com/fulian/liuyuansheng/LiuyuanshengApplication.java
+[DEBUG] Stale source detected: /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/src/main/java/com/fulian/liuyuansheng/hello/Customer.java
+[INFO] Changes detected - recompiling the module!
+[DEBUG] Classpath:
+[DEBUG]  /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/target/classes
+[DEBUG]  /Users/liuqiang/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/2.1.4.RELEASE/spring-boot-starter-data-jpa-2.1.4.RELEASE.jar
+[DEBUG]  /Users/liuqiang/.m2/repository/org/springframework/boot/spring-boot-starter-aop/2.1.4.RELEASE/spring-boot-starter-aop-2.1.4.RELEASE.jar
+[DEBUG]  /Users/liuqiang/.m2/repository/org/springframework/spring-aop/5.1.6.RELEASE/spring-aop-5.1.6.RELEASE.jar
+[DEBUG]  /Users/liuqiang/.m2/repository/org/aspectj/aspectjweaver/1.9.2/aspectjweaver-1.9.2.jar
+[DEBUG]  /Users/liuqiang/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/2.1.4.RELEASE/spring-boot-starter-jdbc-2.1.4.RELEASE.jar
+[DEBUG]  /Users/liuqiang/.m2/repository/com/zaxxer/HikariCP/3.2.0/HikariCP-3.2.0.jar
+[DEBUG]  /Users/liuqiang/.m2/repository/org/springframework/spring-jdbc/5.1.6.RELEASE/spring-jdbc-5.1.6.RELEASE.jar
+[DEBUG]  /Users/liuqiang/.m2/repository/javax/transaction/javax.transaction-api/1.3/javax.transaction-api-1.3.jar
+[DEBUG]  /Users/liuqiang/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar
+[DEBUG]  /Users/liuqiang/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar
+[DEBUG]  /Users/liuqiang/.m2/repository/org/hibernate/hibernate-core/5.3.9.Final/hibernate-core-5.3.9.Final.jar
+[DEBUG]  /Users/liuqiang/.m2/repository/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.jar
+[DEBUG]  /Users/liuqiang/.m2/repository/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar
+[DEBUG]  /Users/liuqiang/.m2/repository/org/javassist/javassist/3.23.1-GA/javassist-3.23.1-GA.jar
+[DEBUG]  /Users/liuqiang/.m2/repository/net/bytebuddy/byte-buddy/1.9.12/byte-buddy-1.9.12.jar
+[DEBUG]  /Users/liuqiang/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar
+[DEBUG]  /Users/liuqiang/.m2/repository/org/jboss/jandex/2.0.5.Final/jandex-2.0.5.Final.jar
+[DEBUG]  /Users/liuqiang/.m2/repository/com/fasterxml/classmate/1.4.0/classmate-1.4.0.jar
+[DEBUG]  /Users/liuqiang/.m2/repository/org/dom4j/dom4j/2.1.1/dom4j-2.1.1.jar
+[DEBUG]  /Users/liuqiang/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.0.4.Final/hibernate-commons-annotations-5.0.4.Final.jar
+[DEBUG]  /Users/liuqiang/.m2/repository/org/springframework/data/spring-data-jpa/2.1.6.RELEASE/spring-data-jpa-2.1.6.RELEASE.jar
+[DEBUG]  /Users/liuqiang/.m2/repository/org/springframework/data/spring-data-commons/2.1.6.RELEASE/spring-data-commons-2.1.6.RELEASE.jar
+[DEBUG]  /Users/liuqiang/.m2/repository/org/springframework/spring-orm/5.1.6.RELEASE/spring-orm-5.1.6.RELEASE.jar
+[DEBUG]  /Users/liuqiang/.m2/repository/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE.jar
+[DEBUG]  /Users/liuqiang/.m2/repository/org/springframework/spring-expression/5.1.6.RELEASE/spring-expression-5.1.6.RELEASE.jar
+[DEBUG]  /Users/liuqiang/.m2/repository/org/springframework/spring-tx/5.1.6.RELEASE/spring-tx-5.1.6.RELEASE.jar
+[DEBUG]  /Users/liuqiang/.m2/repository/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE.jar
+[DEBUG]  /Users/liuqiang/.m2/repository/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar
+[DEBUG]  /Users/liuqiang/.m2/repository/org/springframework/spring-aspects/5.1.6.RELEASE/spring-aspects-5.1.6.RELEASE.jar
+[DEBUG]  /Users/liuqiang/.m2/repository/com/h2database/h2/1.4.199/h2-1.4.199.jar
+[DEBUG]  /Users/liuqiang/.m2/repository/org/springframework/boot/spring-boot-starter/2.1.4.RELEASE/spring-boot-starter-2.1.4.RELEASE.jar
+[DEBUG]  /Users/liuqiang/.m2/repository/org/springframework/boot/spring-boot/2.1.4.RELEASE/spring-boot-2.1.4.RELEASE.jar
+[DEBUG]  /Users/liuqiang/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.4.RELEASE/spring-boot-autoconfigure-2.1.4.RELEASE.jar
+[DEBUG]  /Users/liuqiang/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.1.4.RELEASE/spring-boot-starter-logging-2.1.4.RELEASE.jar
+[DEBUG]  /Users/liuqiang/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar
+[DEBUG]  /Users/liuqiang/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar
+[DEBUG]  /Users/liuqiang/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.11.2/log4j-to-slf4j-2.11.2.jar
+[DEBUG]  /Users/liuqiang/.m2/repository/org/apache/logging/log4j/log4j-api/2.11.2/log4j-api-2.11.2.jar
+[DEBUG]  /Users/liuqiang/.m2/repository/org/slf4j/jul-to-slf4j/1.7.26/jul-to-slf4j-1.7.26.jar
+[DEBUG]  /Users/liuqiang/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar
+[DEBUG]  /Users/liuqiang/.m2/repository/org/springframework/spring-core/5.1.6.RELEASE/spring-core-5.1.6.RELEASE.jar
+[DEBUG]  /Users/liuqiang/.m2/repository/org/springframework/spring-jcl/5.1.6.RELEASE/spring-jcl-5.1.6.RELEASE.jar
+[DEBUG] Source roots:
+[DEBUG]  /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/src/main/java
+[DEBUG]  /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/target/generated-sources/annotations
+[DEBUG] Command line options:
+[DEBUG] -d /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/target/classes -classpath /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/target/classes:/Users/liuqiang/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/2.1.4.RELEASE/spring-boot-starter-data-jpa-2.1.4.RELEASE.jar:/Users/liuqiang/.m2/repository/org/springframework/boot/spring-boot-starter-aop/2.1.4.RELEASE/spring-boot-starter-aop-2.1.4.RELEASE.jar:/Users/liuqiang/.m2/repository/org/springframework/spring-aop/5.1.6.RELEASE/spring-aop-5.1.6.RELEASE.jar:/Users/liuqiang/.m2/repository/org/aspectj/aspectjweaver/1.9.2/aspectjweaver-1.9.2.jar:/Users/liuqiang/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/2.1.4.RELEASE/spring-boot-starter-jdbc-2.1.4.RELEASE.jar:/Users/liuqiang/.m2/repository/com/zaxxer/HikariCP/3.2.0/HikariCP-3.2.0.jar:/Users/liuqiang/.m2/repository/org/springframework/spring-jdbc/5.1.6.RELEASE/spring-jdbc-5.1.6.RELEASE.jar:/Users/liuqiang/.m2/repository/javax/transaction/javax.transaction-api/1.3/javax.transaction-api-1.3.jar:/Users/liuqiang/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar:/Users/liuqiang/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar:/Users/liuqiang/.m2/repository/org/hibernate/hibernate-core/5.3.9.Final/hibernate-core-5.3.9.Final.jar:/Users/liuqiang/.m2/repository/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.jar:/Users/liuqiang/.m2/repository/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar:/Users/liuqiang/.m2/repository/org/javassist/javassist/3.23.1-GA/javassist-3.23.1-GA.jar:/Users/liuqiang/.m2/repository/net/bytebuddy/byte-buddy/1.9.12/byte-buddy-1.9.12.jar:/Users/liuqiang/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/Users/liuqiang/.m2/repository/org/jboss/jandex/2.0.5.Final/jandex-2.0.5.Final.jar:/Users/liuqiang/.m2/repository/com/fasterxml/classmate/1.4.0/classmate-1.4.0.jar:/Users/liuqiang/.m2/repository/org/dom4j/dom4j/2.1.1/dom4j-2.1.1.jar:/Users/liuqiang/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.0.4.Final/hibernate-commons-annotations-5.0.4.Final.jar:/Users/liuqiang/.m2/repository/org/springframework/data/spring-data-jpa/2.1.6.RELEASE/spring-data-jpa-2.1.6.RELEASE.jar:/Users/liuqiang/.m2/repository/org/springframework/data/spring-data-commons/2.1.6.RELEASE/spring-data-commons-2.1.6.RELEASE.jar:/Users/liuqiang/.m2/repository/org/springframework/spring-orm/5.1.6.RELEASE/spring-orm-5.1.6.RELEASE.jar:/Users/liuqiang/.m2/repository/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE.jar:/Users/liuqiang/.m2/repository/org/springframework/spring-expression/5.1.6.RELEASE/spring-expression-5.1.6.RELEASE.jar:/Users/liuqiang/.m2/repository/org/springframework/spring-tx/5.1.6.RELEASE/spring-tx-5.1.6.RELEASE.jar:/Users/liuqiang/.m2/repository/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE.jar:/Users/liuqiang/.m2/repository/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar:/Users/liuqiang/.m2/repository/org/springframework/spring-aspects/5.1.6.RELEASE/spring-aspects-5.1.6.RELEASE.jar:/Users/liuqiang/.m2/repository/com/h2database/h2/1.4.199/h2-1.4.199.jar:/Users/liuqiang/.m2/repository/org/springframework/boot/spring-boot-starter/2.1.4.RELEASE/spring-boot-starter-2.1.4.RELEASE.jar:/Users/liuqiang/.m2/repository/org/springframework/boot/spring-boot/2.1.4.RELEASE/spring-boot-2.1.4.RELEASE.jar:/Users/liuqiang/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.4.RELEASE/spring-boot-autoconfigure-2.1.4.RELEASE.jar:/Users/liuqiang/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.1.4.RELEASE/spring-boot-starter-logging-2.1.4.RELEASE.jar:/Users/liuqiang/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/liuqiang/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/liuqiang/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.11.2/log4j-to-slf4j-2.11.2.jar:/Users/liuqiang/.m2/repository/org/apache/logging/log4j/log4j-api/2.11.2/log4j-api-2.11.2.jar:/Users/liuqiang/.m2/repository/org/slf4j/jul-to-slf4j/1.7.26/jul-to-slf4j-1.7.26.jar:/Users/liuqiang/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/Users/liuqiang/.m2/repository/org/springframework/spring-core/5.1.6.RELEASE/spring-core-5.1.6.RELEASE.jar:/Users/liuqiang/.m2/repository/org/springframework/spring-jcl/5.1.6.RELEASE/spring-jcl-5.1.6.RELEASE.jar: -sourcepath /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/src/main/java:/Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/target/generated-sources/annotations: -s /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/target/generated-sources/annotations -g -parameters -nowarn -target 1.8 -source 1.8 -encoding UTF-8
+[DEBUG] incrementalBuildHelper#beforeRebuildExecution
+[INFO] Compiling 3 source files to /Users/liuqiang/work-space/spring/liuyuansheng-JPA-190409/target/classes
+[DEBUG] incrementalBuildHelper#afterRebuildExecution
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.400 s
+[INFO] Finished at: 2019-04-10T14:12:22+08:00
+[INFO] ------------------------------------------------------------------------
