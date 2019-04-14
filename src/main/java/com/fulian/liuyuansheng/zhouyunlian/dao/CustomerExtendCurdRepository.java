@@ -1,6 +1,6 @@
-package com.fulian.liuyuansheng.hello.dao;
+package com.fulian.liuyuansheng.zhouyunlian.dao;
 
-import com.fulian.liuyuansheng.hello.domain.Customer;
+import com.fulian.liuyuansheng.zhouyunlian.domain.Customer;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Slice;
 import org.springframework.data.querydsl.QuerydslPredicateExecutor;

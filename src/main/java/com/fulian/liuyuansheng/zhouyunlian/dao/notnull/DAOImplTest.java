@@ -1,4 +1,4 @@
-package com.fulian.liuyuansheng.hello.dao.notnull;
+package com.fulian.liuyuansheng.zhouyunlian.dao.notnull;
 
 import org.springframework.stereotype.Component;
 

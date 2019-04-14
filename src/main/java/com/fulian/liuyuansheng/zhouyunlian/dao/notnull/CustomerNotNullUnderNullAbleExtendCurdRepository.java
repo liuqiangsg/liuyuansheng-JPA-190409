@@ -1,6 +1,6 @@
-package com.fulian.liuyuansheng.hello.dao.notnull;
+package com.fulian.liuyuansheng.zhouyunlian.dao.notnull;
 
-import com.fulian.liuyuansheng.hello.domain.Customer;
+import com.fulian.liuyuansheng.zhouyunlian.domain.Customer;
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.lang.Nullable;
 

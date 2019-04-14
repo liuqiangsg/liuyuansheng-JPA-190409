@@ -1,7 +1,7 @@
 package com.fulian.liuyuansheng;
 
-import com.fulian.liuyuansheng.hello.domain.Customer;
-import com.fulian.liuyuansheng.hello.dao.CustomerRepository;
+import com.fulian.liuyuansheng.zhouyunlian.domain.Customer;
+import com.fulian.liuyuansheng.zhouyunlian.dao.CustomerRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;

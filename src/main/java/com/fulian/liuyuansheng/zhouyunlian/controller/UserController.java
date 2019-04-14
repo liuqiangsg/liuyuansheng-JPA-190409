@@ -1,8 +1,8 @@
-package com.fulian.liuyuansheng.hello.controller;
+package com.fulian.liuyuansheng.zhouyunlian.controller;
 
-import com.fulian.liuyuansheng.hello.domain.Customer;
-import com.fulian.liuyuansheng.hello.domain.User;
-import com.fulian.liuyuansheng.hello.service.CustomerServiceImpl;
+import com.fulian.liuyuansheng.zhouyunlian.domain.Customer;
+import com.fulian.liuyuansheng.zhouyunlian.domain.User;
+import com.fulian.liuyuansheng.zhouyunlian.service.CustomerServiceImpl;
 import com.querydsl.core.types.Predicate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;

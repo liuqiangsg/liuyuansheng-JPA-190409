@@ -1,8 +1,8 @@
-package com.fulian.liuyuansheng.hello.service;
+package com.fulian.liuyuansheng.zhouyunlian.service;
 
-import com.fulian.liuyuansheng.hello.domain.Customer;
-import com.fulian.liuyuansheng.hello.dao.CustomerExtendCurdRepository;
-import com.fulian.liuyuansheng.hello.dao.CustomerRepository;
+import com.fulian.liuyuansheng.zhouyunlian.domain.Customer;
+import com.fulian.liuyuansheng.zhouyunlian.dao.CustomerExtendCurdRepository;
+import com.fulian.liuyuansheng.zhouyunlian.dao.CustomerRepository;
 import com.fulian.liuyuansheng.hello.domain.QCustomer;
 import com.querydsl.core.types.Predicate;
 import org.springframework.beans.factory.annotation.Autowired;

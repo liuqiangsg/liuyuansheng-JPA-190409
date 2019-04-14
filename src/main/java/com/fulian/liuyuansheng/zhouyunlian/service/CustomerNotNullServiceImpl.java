@@ -1,8 +1,8 @@
-package com.fulian.liuyuansheng.hello.service;
+package com.fulian.liuyuansheng.zhouyunlian.service;
 
-import com.fulian.liuyuansheng.hello.dao.notnull.CustomerNotNullExtendCurdRepository;
-import com.fulian.liuyuansheng.hello.dao.notnull.CustomerNotNullUnderNullAbleExtendCurdRepository;
-import com.fulian.liuyuansheng.hello.dao.notnull.DAOImplTest;
+import com.fulian.liuyuansheng.zhouyunlian.dao.notnull.CustomerNotNullExtendCurdRepository;
+import com.fulian.liuyuansheng.zhouyunlian.dao.notnull.CustomerNotNullUnderNullAbleExtendCurdRepository;
+import com.fulian.liuyuansheng.zhouyunlian.dao.notnull.DAOImplTest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

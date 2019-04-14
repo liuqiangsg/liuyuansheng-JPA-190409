@@ -1,4 +1,4 @@
-package com.fulian.liuyuansheng.hello.domain;
+package com.fulian.liuyuansheng.zhouyunlian.domain;
 
 import lombok.Data;
 
