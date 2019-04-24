@@ -3,6 +3,7 @@ package com.fulian.liuyuansheng.zhouyunlian.controller;
 import com.fulian.liuyuansheng.zhouyunlian.service.CustomerNotNullServiceImpl;
 import com.fulian.liuyuansheng.zhouyunlian.service.CustomerServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -28,10 +29,27 @@ public class CustomerController {
     public  Object h(){
         return  customerServiceImpl.pageAndSort();
     }
+    @RequestMapping(value = "/deleteId/{id}")
+    public  Object deleteId (@PathVariable("id") Long id) {
+        return  customerServiceImpl.deleteId(id);
+    }
+
+    @RequestMapping(value = "/select/{id}")
+    public  Object selectTestId(@PathVariable("id") Long id) {
+       return customerServiceImpl.selectTestId(id);
+    }
+    @RequestMapping(value = "/findByFirstNameStartingWith")
+    public  Object findByFirstNameStartingWith(String firstName) {
+       return customerServiceImpl.findByFirstNameStartingWith("J");
+    }
 
     @RequestMapping(value = "/findByLastName")
     public  Object findByLastName(){
         return  customerServiceImpl.findByLastName();
+    }
+    @RequestMapping(value = "/findByLastName/name")
+    public  Object findByLastName(String lastName){
+        return  customerServiceImpl.findByLastName(lastName);
     }
 
     @RequestMapping(value = "/findAllByCustomQueryAndStream")
@@ -53,6 +71,16 @@ public class CustomerController {
     @RequestMapping(path = "/sortByIdDesc")
     public Object sort() {
         return  customerServiceImpl.sort();
+    }
+
+    @RequestMapping(path = "/findByFirstNameAndCurrentUserWithCustomQuery")
+    public Object findByFirstNameAndCurrentUserWithCustomQuery(String firstName) {
+        return  customerServiceImpl.findByFirstNameAndCurrentUserWithCustomQuery(firstName);
+    }
+
+    @RequestMapping(path = "/tx")
+    public Object tx() {
+        return  customerServiceImpl.transactionMethod();
     }
 
 }

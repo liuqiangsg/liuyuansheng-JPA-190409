@@ -31,4 +31,7 @@ public class CustomerNotNullServiceImpl {
     public  Object getNullAbleObj(){
         return customerNotNullUnderNullAbleExtendCurdRepository.findByLastName(null);
     }
+    public  Object getNullAble() {
+        return null;
+    }
 }

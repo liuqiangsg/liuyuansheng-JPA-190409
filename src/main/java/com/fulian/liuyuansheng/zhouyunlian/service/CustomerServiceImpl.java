@@ -4,14 +4,15 @@ import com.fulian.liuyuansheng.zhouyunlian.domain.Customer;
 import com.fulian.liuyuansheng.zhouyunlian.dao.CustomerExtendCurdRepository;
 import com.fulian.liuyuansheng.zhouyunlian.dao.CustomerRepository;
 import com.fulian.liuyuansheng.hello.domain.QCustomer;
+import com.fulian.liuyuansheng.zhouyunlian.domain.Person;
 import com.querydsl.core.types.Predicate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
-import javax.transaction.Transactional;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -42,6 +43,21 @@ public class CustomerServiceImpl {
 
     }
 
+    @Transactional
+    public  Object deleteId(Long id) {
+       return customerExtendCurdRepository.deleteId(id);
+    }
+
+    public  Object selectTestId(Long id) {
+        return  customerExtendCurdRepository.selectTestId(id);
+    }
+    public Object findByFirstNameStartingWith(String firstName) {
+        return customerExtendCurdRepository.tt(firstName);
+    }
+
+    public Object findByFirstNameAndCurrentUserWithCustomQuery(String firstName) {
+        return  customerExtendCurdRepository.findByFirstNameAndCurrentUserWithCustomQuery(firstName);
+    }
     public Object findByLastName(){
         return customerRepository.findByLastName(null);
     }
@@ -56,6 +72,17 @@ public class CustomerServiceImpl {
             }
             return list;
         }
+    }
+
+   @Transactional
+    public Object transactionMethod() {
+        Customer customer = customerRepository.save(new Customer(null, "ff", "ll"));
+        int i = 1 / 0;
+        return customer;
+    }
+
+    public   Object findByLastName(String lastName) {
+        return  customerRepository.findByLastName(lastName, Person.class);
     }
 
 

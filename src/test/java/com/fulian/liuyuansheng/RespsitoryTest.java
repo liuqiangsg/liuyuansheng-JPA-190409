@@ -17,5 +17,8 @@ public class RespsitoryTest {
     @Test
     public void  testRepositoryFactory() {
         //RepositoryFactorySupport
+
+        int a = "abcdi".indexOf("a");
+        System.out.println(a);
     }
 }

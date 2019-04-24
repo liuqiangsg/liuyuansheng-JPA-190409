@@ -6,55 +6,28 @@ package com.fulian.liuyuansheng.zhouyunlian.domain;
  * @author liuqiang
  * @date 2019/4/9
  */
+import com.fulian.liuyuansheng.zhouyunlian.compoment.AbstractMappedType;
+import lombok.*;
+import org.springframework.data.jpa.repository.Query;
+
 import javax.persistence.*;
+import java.io.Serializable;
 
 @Entity
 @Table
-public class Customer {
+@Setter
+@Getter
+@AllArgsConstructor
+@NoArgsConstructor
+@ToString
+public class Customer  extends AbstractMappedType implements Serializable {
 
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
-    private Long id;
-    private String firstName;
-    private String lastName;
+    Long id;
+    String firstName;
+    String lastName;
 
 
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
-    protected Customer() {}
-
-    public Customer(String firstName, String lastName) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-    }
-
-    @Override
-    public String toString() {
-        return String.format(
-                "Customer[id=%d, firstName='%s', lastName='%s']",
-                id, firstName, lastName);
-    }
 
 }

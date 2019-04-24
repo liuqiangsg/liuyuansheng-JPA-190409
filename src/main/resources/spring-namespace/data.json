@@ -1,0 +1,11 @@
+[
+  { "_class" : "com.fulian.liuyuansheng.zhouyunlian.domain.Person",
+  "firstName" : "Dave",
+  "lastName" : "Matthews"
+  }
+  ,
+  { "_class" : "com.fulian.liuyuansheng.zhouyunlian.domain.Person",
+    "firstName" : "Carter",
+    "lastName" : "Beauford"
+  }
+]

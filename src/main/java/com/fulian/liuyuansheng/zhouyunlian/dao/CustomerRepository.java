@@ -6,6 +6,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.RepositoryDefinition;
 import org.springframework.lang.NonNull;
 
+import java.util.Collection;
 import java.util.List;
 import java.util.stream.Stream;
 
@@ -34,4 +35,6 @@ public interface CustomerRepository  {
     @Query(nativeQuery = true,value = "select  * from  Customer")
     Stream<Customer>  findAllByCustomQueryAndStream();
 
+
+    <T> Collection<T> findByLastName(String lastName, Class<T> type);
 }
