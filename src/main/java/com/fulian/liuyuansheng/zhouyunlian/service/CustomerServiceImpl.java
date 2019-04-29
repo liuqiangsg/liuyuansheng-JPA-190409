@@ -16,6 +16,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 import java.util.stream.Stream;
 
 /**
@@ -48,8 +49,18 @@ public class CustomerServiceImpl {
        return customerExtendCurdRepository.deleteId(id);
     }
 
+    @Transactional
     public  Object selectTestId(Long id) {
-        return  customerExtendCurdRepository.selectTestId(id);
+        Customer customer = customerExtendCurdRepository.selectTestId(id);
+        System.out.println("#####Transactional exec ####" + customer);
+        try {
+            TimeUnit.SECONDS.sleep(8);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+            throw  new RuntimeException("selectTestId InterruptedException err");
+        }
+
+        return  customer;
     }
     public Object findByFirstNameStartingWith(String firstName) {
         return customerExtendCurdRepository.tt(firstName);
@@ -76,7 +87,7 @@ public class CustomerServiceImpl {
 
    @Transactional
     public Object transactionMethod() {
-        Customer customer = customerRepository.save(new Customer(null, "ff", "ll"));
+        Customer customer = customerRepository.save(new Customer( "ff", "ll","1"));
         int i = 1 / 0;
         return customer;
     }
@@ -92,6 +103,11 @@ public class CustomerServiceImpl {
     }
 
     public Object findAll(Pageable pageable) {
+        try {
+            TimeUnit.SECONDS.sleep(3);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         return customerExtendCurdRepository.findAll(pageable);
     }
 

@@ -1,4 +1,4 @@
-package com.fulian.liuyuansheng.zhouyunlian;
+package com.fulian.liuyuansheng.zhouyunlian.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -27,7 +27,14 @@ public class Customer  extends AbstractMappedType implements Serializable {
     Long id;
     String firstName;
     String lastName;
+    @org.springframework.data.annotation.Version
+    String version;
 
+    public  Customer(String firstName,String lastName,String version) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.version = version;
+    }
 
 
 }

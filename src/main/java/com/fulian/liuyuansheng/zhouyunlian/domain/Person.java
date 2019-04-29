@@ -14,11 +14,11 @@ import org.springframework.data.annotation.Id;
 public class Person {
 
     @Id
-    private String id;
+    String id;
 
-    private  String firstName;
+    String firstName;
 
-    private  String lastName;
+    String lastName;
 
-    private Address address;
+    Address address;
 }
